@@ -1,0 +1,71 @@
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  margin-bottom: 12px;
+  background-color: #1F66BE;
+}
+
+.topnav a {
+ 
+  color: #f2f2f2;
+  border: 1px;
+  border-color: black; 
+  text-align: center;
+  padding-right: 175px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #F2F2F2;
+  color: #358EEA;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+th, td {
+	border: 1px solid black; 
+	
+    text-align: left;
+ 
+}
+
+tr:nth-child(even){
+background-color: #F2F2F2;}
+
+th {
+	
+	text-align: center; 
+    background-color: #1F66BE;
+    color: white;
+}
+
+
+
+
+b:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+b:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+b:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+b:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

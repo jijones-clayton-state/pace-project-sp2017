@@ -1,0 +1,31 @@
+body {font-family: "Times New Roman"; font-size: 16pt; 
+background: linear-gradient(to top, #ffffff 18%, #ff99ff 72%);}
+
+p 	{margin-left: 5pt;		
+    	margin-right: 5pt;}
+	
+	.boldworld	{color: #030a24;
+     	        font-weight: bolder;}
+	
+	img 		{border-color: transparent;}
+	
+	li.navlist	{display: inline;
+				text-align: center; padding: 50px; 				   	
+               	list-style-type: none;}
+				
+	li.syllabus	{display: inline;					
+					text-align: left;
+					list-style-type: none;}			
+	
+	a		{text-decoration: none; 
+	         color: black;}
+	
+	a,hover	{background: none; 
+	         color: blue;}
+	article	{font-size: 14pt; text-decoration: none}	
+	
+	h4		{text-align: center;}
+	
+	
+		
+		

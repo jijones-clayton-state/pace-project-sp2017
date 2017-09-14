@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+*
+<center><img src="newlogo.png" alt="HTML4 Icon" width="580" height="600" ALIGN="right"></center>
+<title>About Page</title>
+
+<h1 style="font-size:300%;font-family: impact; color:gold;text-align:center;">Wi2STEM</h1>
+<a style="text-align:center;" href="Contact.html">Contact</a> 
+
+<a href="Events.html">Events</a>
+
+<a href="Scholarships.html">Scholarships/Internships</a>
+
+<a href="Gallery.html">Gallery</a>
+<style>
+html {
+	background:url('img.jpg') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	}
+</style>
+
+</head>
+
+<body>
+<section>
+
+<h3 style=" font-family: Monaco; color:purple">The purpose of Wi2STEM (Women interested in Science, Technology, Engineering and Math) is to 
+promote the interests of women in the sciences and to build a network of resources for 
+women and other underrepresented groups in STEM majors at Clayton State. 
+We want everyone to succeed in science, and we'd like to help them do it.</h3>
+</section>
+</body>
+</html>

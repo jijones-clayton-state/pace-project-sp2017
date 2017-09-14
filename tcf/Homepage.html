@@ -1,0 +1,185 @@
+﻿<!doctype html>
+
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>TCF Gaming Arena</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	
+	<script type = "text/javascript">
+	<!--
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("slideShow").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("slideShow").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 2000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "gaming1.jpg";
+          images[1] = "gaming2.jpg";
+          images[2] = "gaming3.jpg";
+		  images[3] = "gaming4.png";
+	-->
+      </script>
+	
+<style type="text/css">
+nav {
+    text-align:center;
+    }
+nav ul 
+	{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    width:79.8%;
+	display:inline-block;
+<!--	overflow: hidden;
+	border-bottom: 5px solid #ddd;
+    border-top: 1px solid #ccc;-->
+	}
+
+nav li 
+	{
+    display:inline-block;
+	}
+
+nav li a 
+	{
+    display: block;
+<!--	padding: 14px 16px;
+	font-size: 13px-->
+    text-color: #eeeeff;
+    text-align: center;
+    text-decoration: none;
+	}
+
+nav li a:hover 
+    {
+    text-color: #eeeeff;
+    }    
+
+div#galleryHolder
+	{
+		width: 600px;
+		height: 400px;
+		margin: 0 auto;
+		background-color: #ffffb3;
+		padding: 10px;
+	}
+div#bigHolder
+	{
+		width: 600px;
+		height: 400px;
+		background-color: #ffffb3;
+	}
+div#bigHolder > img{
+		width: 600px;
+		height: 400px;
+	}
+	
+	</style>
+</head>
+<body onload = "startTimer()">
+    
+ <header>
+<table class="table_banner">
+     <tr>
+        <td class="td_Logo">
+            <img alt="TCF logo" class="style1" longdesc="TCF_logo" src="Images/TCFLogoNoGlow.png"/>
+        </td>
+        <td class="td_phonenumber">
+            <h1>(678) 829-3639</h1>
+            <h3>Store Hours:<br/> Everyday 11:00 AM - 9:00 PM</h3>
+            <h4>569 Jonesboro Rd. McDonough, GA 30252</h4>
+        </td>
+     </tr>
+</table>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html"><img alt="nav_Home" src="Images/Nav/home.png" /></a></li>
+                <li><a href="Events.html"><img alt="nav_Events" src="Images/Nav/events.png" /></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/TCFGamingArena/"><img alt="nav_Social" src="Images/Nav/social.png" /></a></li>
+                <li><a href="Contact_Us.html"><img alt="nav_Contact" src="Images/Nav/contact.png" /></a></li>
+                <li><a href="Shop.html"><img alt="nav_Shop" src="Images/Nav/shop.png" /></a></li>
+            </ul>  
+        </nav>
+
+</header>
+    <table class="table_main">
+        <tr>
+            <td class="td_main_sidebar">
+                <br /></td>
+            <td class="td_main_content">
+                <table class="table_nested_homepage">
+                    <tr>
+                        <td class="td_nested_two_columns">
+                            <br />
+                            <br />
+                            <h1 class="h1_body">About Us</h1>
+                            <p class="p_body">
+                                Our company is a company founded and ran by gamers for gamers!  The owner has been gaming since he was a little boy and knows what gaming is about.  We want every experience you have at our store to be consistent as the best gaming store you have ever been to.
+                                <br />
+                                <br />
+                                We run regular card tournaments, board gaming events, and even video game tournaments. We also provide model and miniature painting services. Please contact us today for more information.
+                                <br />
+                                <br />
+                                <br />
+                                If you like to game we are your one stop destination!
+                            </p>
+                           
+                            <br />
+                            <br />
+                        </td>
+                        <td class="td_nested_two_columns">
+                            <br />
+                            <br />                            
+							<br />
+                            <br />
+							<br />
+							<br />
+                          <div id="galleryHolder">
+							<div id="bigHolder">
+								<img alt="Picture1" class="style1" longdesc="Picture1" id="slideShow"  src="Gaming1.jpg"/>
+							</div>
+						</div>
+
+
+                            <br />
+                            <br />
+                        </td>
+                    </tr>
+                </table>
+                <table class="table_nested_homepage">
+                    <tr>
+                        <td class="td_nested_one_column">
+                          
+                            <h1 class="h1_body">Click the Social Tab to Follow Us on Facebook!</h1>
+                            
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="td_main_sidebar">
+                <br /></td>
+            
+        </tr>
+    </table>
+    <hr style="width: 75%" />
+    <footer>
+        <p>TCF Gaming Arena | 569 Jonesboro Rd. McDonough, GA 30252 | 678-829-3693</p>
+    </footer>
+</body>
+</html>
