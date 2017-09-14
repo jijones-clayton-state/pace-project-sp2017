@@ -1,0 +1,227 @@
+body			{font-family: Arial, Helvetica, sans-serif;
+						font-size: 11pt;
+						background-image: url("background1.jpg");
+						background-attachment: fixed;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;}	
+a:link			{ color: #A40000;}
+						
+a:visited 		{color: #A40000;}
+
+a:link 			{text-decoration: none;}
+
+a:visited 		{text-decoration: none;}
+
+a:hover 		{text-decoration: underline;}
+
+a:active 		{text-decoration: underline;}
+
+/* Styles for all the main page pictures */
+			
+#banner			{ position:absolute;
+							top: 190px;
+							left: 497px;
+							}
+#logo			{ position:absolute;
+							top: 26px;
+							left: 480px;
+							}
+#fblogo			{	position:absolute;
+							top: 135px;
+							right: 613px;}	
+#twitter		{ position:absolute;
+							top: 135px;
+							right: 560px;
+							}
+#instagram		{ position:absolute;
+							top: 120px;
+							right: 498px;
+							}
+#mission			{ position:absolute;
+							top: 700px;
+							left: 490px;
+							}
+#location			{ position:absolute;
+							top: 700px;
+							left: 789px;
+							}
+#services			{ position:absolute;
+							top: 700px;
+							right: 507px;
+							}
+#scissor			{ position:absolute;
+							top: 730px;
+							right: 507px;
+							}							
+
+/* line spacing for paragraphs and lists */	
+						
+p                   {line-height:130%;
+					 font-size:160%;}	
+
+ul				    {line-height:125%;}	
+
+li						{margin: 18px 10px;}
+
+/* Orientation of main page description */		
+				
+#missionstate			{ position:absolute;
+							top: 710px;
+							left: 493px;
+							}
+#locatedstate			{ position:absolute;
+							top: 710px;
+							left: 793px;
+							}
+#servicelist			{ position:absolute;
+							top: 711px;
+							right: 590px;
+							}
+						
+/* Home, about us, contact and gallery navigation pics */
+
+#home			{ position:absolute;
+							top: 605px;
+							left: 655px;
+							}
+#gallery			{ position:absolute;
+							top: 609px;
+							left: 790px;
+							}							
+#contact			{ position:absolute;
+							top: 606px;
+							right: 700px;
+							}
+#service1			{ position:absolute;
+							top: 614px;
+							right: 860px;
+							}
+#bar1			{ position:absolute;
+							top: 614px;
+							right: 825px;
+							}
+#bar2			{ position:absolute;
+							top: 614px;
+							left: 760px;
+							}
+#bar3			{ position:absolute;
+							top: 614px;
+							right: 975px;
+							}
+/* Google map location script pic*/
+
+#map			{ position:absolute;
+							border-style:solid;
+							border-width:1px;
+							width: 250px;
+							height: 125px;
+							top: 950px;
+							left: 825px;
+							}
+#galleryslide   			{position:absolute;
+							top: 675px;
+							right: 660px;}	
+							
+#aboutinfo				{position:absolute;
+						margin: 20px 475px 20px 475px;
+							top: 660px;
+							text-align: center;
+							font-weight: bold;
+						    font-size: 9pt;}							
+							
+#footerservice				{position:relative;
+							top: 1485px;
+							text-align: center;
+							font-weight: bold;
+						    font-size: 9pt;}
+							
+#footercontact			{position:relative;
+							top: 1250px;
+							text-align: center;
+							font-weight: bold;
+						    font-size: 9pt;}
+
+#footergallery				{position:relative;
+							top: 1620px;
+							text-align: center;
+							font-weight: bold;
+						    font-size: 9pt;}
+							
+#footermain				{position:relative;
+							top: 1100px;
+							text-align: center;
+							font-weight: bold;
+						    font-size: 9pt;}
+							
+#servicesprice    			{position:absolute;
+							top: 650px;
+							right: 300px;}
+											
+							
+/* menu bar for links on service page*/
+
+table.menu		{margin-left: auto;
+				 margin-right: auto;
+				 width: 40%;
+				 padding: 1px;}	
+
+table.men  		{text-align: center;
+				 margin-left: auto;
+				 margin-right: auto;
+				 width: 40%;}
+				 
+		/*unorder list service page*/			 
+ul.serv 			{font-size:13pt;
+				 list-style-type: none;
+				 color: #990000;
+				 text-align: center;
+				 margin-bottom: 50px;
+				 font-family: comic sans ms;
+				 font-style: italic;
+				 font-weight: bold;}
+
+		/*term and definition on service page*/
+dt 				{font-weight: bold;
+				 font-family: comic sans ms;}
+
+dd 				{margin-left: 2em;
+				font-family: comic sans ms;
+				font-style: italic;}		
+
+		/*line bar service page*/
+h1 				{overflow: hidden;
+				 text-align: center;
+				 font-family: comic sans ms;
+				 font-size: 32pt;
+				 color: white;
+				 text-shadow: 4px 4px 7px #990000;}
+	/*services page*/			 
+h1:before, h1:after 
+				{background-color: #990000;
+				 content: "";
+				 display: inline-block;
+				 height: 3px;
+				 position: relative;
+				 vertical-align: middle;
+				 width: 25%;
+}
+h1:before 		{right: 0.5em;
+				 margin-left: -50%;}
+				 
+h1:after 		{left: 0.5em;
+				 margin-right: -50%;}	
+				 
+/*contact page*/
+h2:before
+				{background-color: #990000;
+				 content: "";
+				 display: inline-block;
+				 height: 3px;
+				 position: relative;
+				 vertical-align: middle;
+				 width: 95%;
+}
+
+
+				 

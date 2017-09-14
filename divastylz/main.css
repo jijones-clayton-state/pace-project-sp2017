@@ -1,0 +1,129 @@
+body			{font-family: Arial, Helvetica, sans-serif;
+						font-size: 11pt;
+						background-image: url("background1.jpg");
+						background-attachment: fixed;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;}	
+a:link			{ color: #A40000;}
+						
+a:visited 		{color: #A40000;}
+
+a:link 			{text-decoration: none;}
+
+a:visited 		{text-decoration: none;}
+
+a:hover 		{text-decoration: underline;}
+
+a:active 		{text-decoration: underline;}
+
+/* Styles for all the main page pictures */
+			
+#banner			{ position:absolute;
+							top: 190px;
+							left: 497px;
+							}
+#logo			{ position:absolute;
+							top: 26px;
+							left: 480px;
+							}
+#fblogo			{	position:absolute;
+							top: 135px;
+							right: 613px;}	
+#twitter		{ position:absolute;
+							top: 135px;
+							right: 560px;
+							}
+#instagram		{ position:absolute;
+							top: 120px;
+							right: 498px;
+							}
+#mission			{ position:absolute;
+							top: 700px;
+							left: 490px;
+							}
+#location			{ position:absolute;
+							top: 700px;
+							left: 789px;
+							}
+#services			{ position:absolute;
+							top: 700px;
+							right: 507px;
+							}
+#scissor			{ position:absolute;
+							top: 730px;
+							right: 507px;
+							}							
+
+/* line spacing for paragraphs and lists */	
+						
+p                   {line-height:130%;}	
+
+ul				    {line-height:125%;}	
+
+/* Orientation of main page description */		
+				
+#missionstate			{ position:absolute;
+							top: 710px;
+							left: 493px;
+							}
+#locatedstate			{ position:absolute;
+							top: 710px;
+							left: 793px;
+							}
+#servicelist			{ position:absolute;
+							top: 711px;
+							right: 590px;
+							}
+						
+/* Home, about us, contact and gallery navigation pics */
+
+#home			{ position:absolute;
+							top: 605px;
+							left: 655px;
+							}
+#gallery			{ position:absolute;
+							top: 609px;
+							left: 790px;
+							}							
+#contact			{ position:absolute;
+							top: 606px;
+							right: 700px;
+							}
+#service1			{ position:absolute;
+							top: 614px;
+							right: 860px;
+							}
+#bar1			{ position:absolute;
+							top: 614px;
+							right: 825px;
+							}
+#bar2			{ position:absolute;
+							top: 614px;
+							left: 760px;
+							}
+#bar3			{ position:absolute;
+							top: 614px;
+							right: 975px;
+							}
+/* Google map location script pic*/
+
+#map			{ position:absolute;
+							border-style:solid;
+							border-width:1px;
+							width: 270px;
+							height: 155px;
+							top: 955px;
+							left: 812px;
+							}
+#galleryslide    			{position:absolute;
+							top: 660px;
+							right: 660px;}							
+							
+
+							
+#footermain				{position:relative;
+							top: 1132px;
+							text-align: center;
+							font-weight: bold;
+						    font-size: 9pt;}					
